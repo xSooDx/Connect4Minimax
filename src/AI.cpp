@@ -67,6 +67,7 @@ int AI::bestMove()
 
 int AI::searchDepth(int d,char p)
 {
+    //uses Negmax, a form of minimax to search
     char op = p=='x'?'o':'x';
     int f=0;
     for(int i =0; i<BOARD_COLS;i++)

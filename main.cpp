@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdio>
 #include "Board.h"
 
 #include "Player.h"
@@ -62,6 +63,7 @@ int main()
 
     gameState=1;
     int p;
+    //Game Loop
     while(gameState==1)
     {
          p = turn%2;
@@ -95,5 +97,7 @@ int main()
 
     board.printBoard(p);
 
-
+    cout<<"Press Any Key to exit\n";
+    getchar();
+    getchar();
 }
