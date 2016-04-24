@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1461519758 source:d:\workspace\daa\connect4\main.cpp
+	<iostream>
+	"Board.h"
+	"Player.h"
+	"Human.h"
+	"AI.h"
+
+1461509501 d:\workspace\daa\connect4\include\board.h
+
+1461517915 source:d:\workspace\daa\connect4\src\board.cpp
+	"Board.h"
+	<iostream>
+	<stdio.h>
+
+1461435536 d:\workspace\daa\connect4\include\player.h
+	"Board.h"
+
+1461434136 d:\workspace\daa\connect4\include\human.h
+	<Player.h>
+
+1461485194 d:\workspace\daa\connect4\include\ai.h
+	<Player.h>
+
+1461519917 source:d:\workspace\daa\connect4\src\ai.cpp
+	"AI.h"
+	<iostream>
+	<cstdio>
+	<ctime>
+
+1461516909 source:d:\workspace\daa\connect4\src\human.cpp
+	"Human.h"
+	<iostream>
+
+1461433818 source:d:\workspace\daa\connect4\src\minimax.cpp
+	"Minimax.h"
+	<string.h>
+
+1461419506 d:\workspace\daa\connect4\include\minimax.h
+
